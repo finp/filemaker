@@ -1,0 +1,17 @@
+{
+  "name": "filemaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "filemaker": "index.js"
+  },
+  "dependencies": {
+    "sanitize-filename": "git@github.com:finp/node-sanitize-filename.git#filemaker"
+  }
+}
