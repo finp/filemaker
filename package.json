@@ -12,6 +12,7 @@
     "filemaker": "index.js"
   },
   "dependencies": {
-    "sanitize-filename": "git@github.com:finp/node-sanitize-filename.git#filemaker"
+    "sanitize-filename": "git@github.com:finp/node-sanitize-filename.git#filemaker",
+    "copy-paste": "git@github.com:xavi-/node-copy-paste.git"
   }
 }

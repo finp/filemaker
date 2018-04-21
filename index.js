@@ -3,7 +3,7 @@
 //https://nodejs.org/api/readline.html#readline_example_tiny_cli
 
 var sanitize = require("sanitize-filename");
- 
+var copy = require("copy-paste"); 
 
 // Sanitize the string to be safe for use as a filename. 
 //var filename = sanitize(UNSAFE_USER_INPUT);
@@ -27,8 +27,10 @@ rl.on('line', (line) => {
       break;
     default:
      var filename = sanitize(line.trim(),{replacement: '-'});
-      //console.log(`'${line.trim()}'`);
+     
       console.log(filename);
+      copy.copy(filename);
+
 
       break;
   }
