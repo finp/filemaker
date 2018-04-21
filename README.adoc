@@ -4,7 +4,11 @@ Make a valid filename from a string, to install:
 
 . Make sure you have a clipboard cli available (pbcopy/pbpaste or xclip).
 . Clone this repo and change directory to location.
-. npm i -g
+. Install the `filemaker` executable:
++
+----
+npm i -g
+----
 
 == Using filemaker
 
