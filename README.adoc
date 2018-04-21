@@ -8,6 +8,8 @@ Make a valid filename from a string, to install:
 
 == Using filemaker
 
+Starting filemaker creates a session where you input headings and filemaker outputs valid filenames, for example:
+
 ----
 $ filemaker 
 Filemaker> Create a filename from a heading
