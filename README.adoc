@@ -1,2 +1,18 @@
-= filemaker
-make a valid filename from a string
+= filemaker - Create a filename from a heading
+
+Make a valid filename from a string, to install:
+
+. Make sure you have a clipboard cli available (pbcopy/pbpaste or xclip).
+. Clone this repo and change directory to location.
+. npm i -g
+
+== Using filemaker
+
+----
+$ filemaker 
+Filemaker> Create a filename from a heading
+create-a-filename-from-a-heading
+----
+
+NOTE: The output text is copied to the clipboard
+
